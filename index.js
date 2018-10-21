@@ -163,7 +163,7 @@ client.on("guildCreate", async guild => {
 			}
 	  });
 	  try{
-	  	defaultChannel.send("<:sans:433938682680967170><:sans:433938682680967170>\tHenlo!\n``!stando help`` but first let a mod/Moudiz set up the bot channel with ``!stando bot #<Channel-Name>`` <:sans:433938682680967170>");
+	  	defaultChannel.send("Hello!\n``!stando help`` but first let a mod/Moudiz set up the bot channel with ``!stando bot #<Channel-Name>`` <:sans:433938682680967170>");
 	  }
 	  catch(err) {return;}
 	}
